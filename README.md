@@ -53,7 +53,7 @@ The Task_Manager API is a little project to handle users task management enablin
 
 ### Step 4: Run migrations and create a superuser:
     ```bash
-    python manage.py makemigrations
+    python manage.py makemigrations accounts tasks
     python manage.py migrate
     python manage.py createsuperuser
     ```
