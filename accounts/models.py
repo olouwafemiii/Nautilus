@@ -1,8 +1,7 @@
 import uuid
 from django.core.mail import send_mail
 from django.db import models
-from django.contrib.auth.models import (AbstractBaseUser,PermissionsMixin)
-from django.db import models
+from django.contrib.auth.models import (AbstractBaseUser, PermissionsMixin)
 from django.utils import timezone
 from django.utils.translation import gettext_lazy as _
 from rest_framework_simplejwt.tokens import RefreshToken
@@ -11,8 +10,7 @@ from .managers import UserManager
 
 class User(AbstractBaseUser, PermissionsMixin):
     """
-     User model with
-    admin-compliant permissions.
+    User model with admin-compliant permissions.
     email and password are required. Other fields are optional.
     """
 

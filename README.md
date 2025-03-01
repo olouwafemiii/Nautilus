@@ -31,12 +31,13 @@ The Task_Manager API is a little project to handle users task management enablin
     ```
 ### Step 2: Create a Virtual Environment and Install Dependencies
   ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    python3 -m venv env
+    source env/bin/activate  # On Windows use `env\Scripts\activatee`
     pip install -r requirements.txt
   ```
 ### Step 3: Create a `.env`(Environment Variables) file in the `Task_Manager` folder with the following content (you can adjust the values as needed):
     ```env
+      # .env
       # secret_key
       SECRET_KEY=your_secret_key
       DEBUG=True
