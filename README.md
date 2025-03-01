@@ -30,11 +30,11 @@ The Task_Manager API is a little project to handle users task management enablin
     cd Nautilus
     ```
 ### Step 2: Create a Virtual Environment and Install Dependencies
-
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-pip install -r requirements.txt
-
+  ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    pip install -r requirements.txt
+  ```
 ### Step 3: Create a `.env`(Environment Variables) file in the `Task_Manager` folder with the following content (you can adjust the values as needed):
     ```env
       # secret_key
