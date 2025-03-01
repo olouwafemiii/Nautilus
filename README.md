@@ -26,8 +26,8 @@ The Task_Manager API is a little project to handle users task management enablin
 
 ### Step 1: Clone the Repository
     ```bash
-    git clone ssh://git@gitlab.intside.one:2424/giz/giz-benin/learning-nuggets/learning-nuggets-api.git
-    cd task_manager
+    git clone git@github.com:olouwafemiii/Nautilus.git
+    cd Nautilus
     ```
 ### Step 2: Create a Virtual Environment and Install Dependencies
 
